@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng ký học viên</title>
+    <style>
+        th{
+            color:blue;
+        }
+        span{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <form action="get">
+        <fieldset style="width: 600px;height: 300px" >
+        <table align="center" width="400px" style="background-color: #f9ff79">
+            <tr bg bgcolor="#7fffd4">
+                <th colspan="4" style="text-align: left"> ĐĂNG KÝ HỌC VIÊN </th>
+            </tr>
+            <tr>
+                <td style="text-align: left"><span>Họ và tên</span></td>
+                <td><input type="text" name="yourname"></td>
+            </tr>
+            <tr>
+                <td style="text-align: left"><span>Ngày sinh</span></td>
+                <td><input type="date" name="birthday"></td>
+            </tr>
+            <tr>
+                <td style="text-align: left" ><span>Giới tính</span></td>
+                <td>
+                    <input type="radio" name="sex" id="Nam"> Nam
+                    <input type="radio" name="sex" id="Nữ"> Nữ
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: left"><span>Địa chỉ</span></td>
+                <td colspan="2"><textarea name="adress" id="ad" cols="" rows=""></textarea></td>
+            </tr>
+            <tr>
+                <td style="text-align: left"><span>Lớp</span></td>
+                <td colspan="2">
+                    <select name="SelectClass">
+                        <option>---Chọn lớp---</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: left"><span>Email</span></td>\
+                <td><input type="email"></td>
+            </tr>
+            <tr>
+                <td style="text-align: left"><span>Số điện thoại</span></td>
+                <td><input type="number" name="phone" id=""></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Đăng ký">
+                <input type="reset" value="Nhập lại"></td>
+            </tr>
+        </table>
+        </fieldset>
+    </form>
+</body>
+</html>
