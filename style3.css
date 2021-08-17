@@ -1,0 +1,11 @@
+table{
+    margin: auto;
+    border-collapse: collapse;
+    width: 300px;
+}
+h2{
+    text-align: center;
+}
+th{
+    background-color: yellow;
+}
